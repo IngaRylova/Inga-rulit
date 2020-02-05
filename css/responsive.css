@@ -1,0 +1,40 @@
+@media (max-width: 765px) and (min-width: ) { 
+
+	.carousel-caption h3{
+	  display: none;
+}
+ 	.carousel-caption p{
+	  display: none;
+}
+.slider-block-hidden{
+	height: 200px;
+	background: radial-gradient(24% 120%, #d3e8f9, #86caff);
+    display: block;
+}
+.slider-block-hidden .carousel-caption .hidden h3{
+	display: block;
+}
+.hidden p{
+	display: block;
+}
+
+.btn-hidden{
+	display: block;
+}
+
+
+
+/*css
+.slider-block-hidden{
+	display: none;
+}
+.hidden{
+	display: none;
+}*/
+
+
+.btn-heading{
+	display: none;
+}
+
+}

@@ -1,0 +1,246 @@
+﻿body{
+	font-family: 'Open Sans', sans-serif;
+
+}
+.wrap{
+	max-width: 940px;
+	margin:0px auto;
+}
+.navbar-default {
+    background-color:#5b6169;
+    border:none;
+    height: 90px;
+}
+.navbar-brand{
+	background: -webkit-linear-gradient(#e4e3e3, #969798);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    height: 75px;
+    margin-top: 10px;
+    padding-left: 90px;
+
+}
+span{
+	font-size:18px;
+     background: -webkit-linear-gradient(#e4e3e3, #969798);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:  600;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #c4c4c7;
+    padding: 35px 15px;
+}
+.navbar {
+    margin-bottom: 0px;
+
+}
+
+.navbar-toggle {
+    margin-top: 28px;}
+
+.slider-block{
+	height: 406px;
+	background: radial-gradient(24% 120%, #d3e8f9, #86caff);
+    overflow: hidden;
+
+}
+
+.slider-block-hidden{
+	height: 200px;
+	background: radial-gradient(24% 120%, #d3e8f9, #86caff);
+    display: none;
+}
+.bg{
+	background-image: url(../images/iphone.png);
+    position: absolute;
+    width: 325px;
+    height: 600px;
+    background-size: contain;
+    padding: 102px 59px 10px 55px;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+   width: 100%;
+}
+.carousel-indicators {
+    bottom: -399px;
+    left: 96%;
+}
+.slider-block .carousel-caption{
+	width: 325px;
+position: absolute;
+right: -54%;
+bottom: 118px;
+left: 172%;
+z-index: 10;
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: 35px;
+text-align: left;
+display: block;
+}
+
+
+.carousel-indicators .carousel-caption {
+	display: none;
+}
+
+
+
+.carousel-indicators .active  .carousel-caption {
+	display: block;
+}
+.carousel-caption h3{
+	 font-size: 35px;
+	  color:#fff;
+	  margin-bottom: -10px;
+}
+
+.carousel-caption>p{
+    font-size: 14px;
+    margin-top: -4px;
+    font-weight: 400;
+    color:#3e94de;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+
+.carousel-indicators  li{
+    background-color: #309bcc;
+    border:none;
+}
+.carousel-indicators .active {
+    background-color: #3c9ac7;
+}
+
+.row{
+    
+    margin-top: 45px;
+}
+h2{
+	text-align: center;
+	font-size: 35px;
+}
+hr {
+    margin-top: 38px;
+    border-top: 1px solid #272525;
+}
+h4{
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #74ABDA;
+}
+.heading{
+	text-align: center;
+}
+.img-circle{
+	    margin-bottom: 35px;
+	
+}
+
+.heading-btn{
+	background-color: #2a8bde;
+}
+
+.about {
+    background-color: #D1D1D1;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.btn {
+    margin-bottom: 20px;
+    background-color: #74ABDA;
+    padding: 4px 25px;
+    font-size: 12px;
+    border-radius: 1px;
+    border: none;
+    margin-top: 20px;
+}
+
+h5{
+	font-size: 25px;
+	 margin: 0px auto 5px auto;
+
+}
+
+h6{
+    font-size: 20px;
+    color: #2a8bde;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.skills{
+	    margin-top: 45px;
+    text-transform: uppercase;
+}
+.progress {
+	width: 100%;
+    height: 20px;
+    margin-bottom: 7px;
+    overflow: hidden;
+    background-color: #6d6c6c;
+    border-radius: 1px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    
+}
+.progress p{
+	text-align: left;
+	padding-left: 1%;
+}
+
+.form-control {
+    height: 24px;
+    padding: 0px 5px;
+    margin-top: 5px;
+}
+.message{
+	height: 100px;
+    padding-bottom: 72px;
+}
+	.bottom-button {
+    position: absolute;
+    padding: 0px;
+    width: 50px;
+   	right: 15px;
+    background-color: #2a8bde;
+    bottom: 0px;
+     margin: 0px
+}
+
+
+.about .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.btn-heading {
+    position: absolute;
+    right: 26%;
+    bottom: -316px;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.form-group{
+
+}
+.footer{
+  background: #fff;
+  border-top: 1px solid #fff;
+ 
+}
+.foot-info{
+   text-align: center;
+  font-size: 12px;
+  color:#776c6c;
+
+}
+
+.form-group {
+    margin-bottom: 1px;
+}
+.btn-heading{
+    display: block;
+}
